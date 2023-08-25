@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="static/styles.css">
+<div class="container">
+    <div class="card">
+        <div class="row">
+            <div class="col-9 left">
+                <div class="row top">
+                    <h1>Weather</h1>
+                    <div class="search-bar">
+                        <form action="/submit_form" method="POST">
+                        <input name="city_name" type="text" id="city_name" placeholder="Enter city"
+                        required="required" data-validation-required-message="Please enter city name"/>
+                        <p class="help-block text-danger"></p>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,190 @@
+.search-bar {
+    position: relative;
+  }
+  
+  .search-bar input[type="text"] {
+    padding-right: 30px; /* To make space for the icon */
+  }
+  
+  .search-bar i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+
+  .styled-button {
+    position: relative;
+    padding-right: 30px;
+    background-color: #226092;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .styled-button i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    font-family: sans-serif;
+}
+p{
+    margin-bottom: 1vh;
+}
+.container{
+    justify-content: center;
+}
+.card{
+    border: 1vh solid black;
+    max-width: 800px;
+    border-radius: 1vh;
+    margin: auto;
+}
+.col-8{
+    border-top-left-radius: 0.2vh;
+    border-bottom-left-radius: 0.2vh;
+}
+.left{
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    margin: 0;
+}
+.right{
+    padding: 1rem;
+}
+.row,.col{
+    margin: 0;
+}
+.top{
+    text-align: center;
+    font-size: 0.65rem;
+    padding: 2vh;
+}
+
+@media(max-width:768px){
+    .top{
+        text-align: center;
+        font-size: 0.5rem;
+        padding: 1vh;
+    }
+    .top .col{
+        padding:0 0.5vh;
+    }
+}
+.temp{
+    padding: 8vh;
+    text-align: center;
+    font-size: 18vh;
+    font-weight: bold;
+}
+@media(max-width:768px)
+{
+    .temp{
+        padding: 3vh 0vh;
+        text-align: center;
+        font-size: 9vh;
+        font-weight: bold;
+    }
+}
+@media(min-height:812px) and (min-width:769px)
+{
+    .temp{
+        padding: 3vh 0vh;
+        text-align: center;
+        font-size: 9vh;
+        font-weight: bold;
+    }
+}
+.deg{
+    height: 50%;
+    background-color: rgb(189, 188, 188);
+    border-radius: 5rem;
+}
+.time{
+    align-self: center;
+    font-size: 0.8rem;
+}
+@media(max-width:768px)
+{
+    .time{
+        align-self: center;
+        font-size: o.8rem;
+    }
+    .time h2{
+        font-size: 0.9rem;
+    }
+    .col-5{
+        padding: 1vh 0;
+    }
+}
+.bottom .row{
+    justify-content: center;
+    font-size: 0.75rem;
+}
+.bottom .col{
+    padding: 3vh 0.3vw ;
+    margin: 2vh;
+}
+@media(max-width:768px){
+    .bottom .col{
+        padding: 3vh 0.1vw;
+        margin: 0.03rem;
+    }  
+}
+@media(min-height:812px) and (min-width:769px)
+{
+    .bottom .col{
+        padding: 3vh 0.1vw;
+        margin: 0.03rem;
+    }  
+}
+.border{
+    border-radius: 2vh;
+}
+.right .top{
+    justify-content: flex-end;
+    text-align: right;
+}
+.timely .row{
+    justify-content: flex-end;
+    padding: 2vh;
+}
+.timely{
+    margin-top: 25%;
+}
+@media(max-width:768px){
+    .timely .row{
+        justify-content: flex-end;
+        padding: 2vh 0;
+        font-size: 0.52rem;
+    }
+}
+@media(max-width:320px)
+{
+    hr{
+        width: 0;
+        margin: 0;
+    }
+}
+
+
+h1 {
+    font-size: 24px; /* Change the size of the font to your preference */
+    color: lavender; /* Change the color to your preference */
+    text-align: center;
+    top: 0%;
+    padding-bottom: 10px; /* Align the heading to the center if preferred */
+  }

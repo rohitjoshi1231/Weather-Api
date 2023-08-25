@@ -1,0 +1,86 @@
+.search-bar {
+    position: relative;
+  }
+  
+  .search-bar input[type="text"] {
+    padding-right: 30px; /* To make space for the icon */
+  }
+  
+  .search-bar i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+
+  .styled-button {
+    position: relative;
+    padding-right: 30px;
+    background-color: #226092;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .styled-button i {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+
+  body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    font-family: sans-serif;
+  }
+
+p{
+    margin-bottom: 1vh;
+}
+.container{
+    justify-content: center;
+}
+.card{
+    border: 1vh solid black;
+    max-width: 800px;
+    border-radius: 1vh;
+    margin: auto;
+}
+.col-8{
+    border-top-left-radius: 0.2vh;
+    border-bottom-left-radius: 0.2vh;
+}
+.left{
+    background-color: rgb(243, 243, 243);
+    padding: 1rem;
+    margin: 0;
+}
+.right{
+    padding: 1rem;
+}
+.row,.col{
+    margin: 0;
+}
+.top{
+    text-align: center;
+    font-size: 0.65rem;
+    padding: 2vh;
+}
+
+h1 {
+    font-size: 24px; /* Change the size of the font to your preference */
+    color: #303030; /* Change the color to your preference */
+    text-align: center;
+    top: 0%;
+    padding-bottom: 10px; /* Align the heading to the center if preferred */
+    /* Add any other styles you like such as font-family, font-weight, etc. */
+  }
